@@ -9,13 +9,13 @@ with open("README.md", "r") as readme:
     
 setuptools.setup(
     name="fineprint",
-    version="0.0.1",
+    version="1.0.2",
     author="glozanoa",
-    author_email="gacuna@protonmail.com",
+    author_email="glozano@uni.pe",
     description="Pretty print text.",
     long_description=long_description,
-    #long_description_content_type="text/markdown",
-    url="https://github.com/glozanoa/fineprint",
+    long_description_content_type="text/markdown",
+    url="https://github.com/fpolit/fineprint",
     install_requires = [
         'colorama',
     ],

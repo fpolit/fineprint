@@ -5,7 +5,7 @@ from color import ColorStr
 def print_successful(msg):
     sucess = ColorStr("[+]")
     print(f"{sucess.ForeGREEN} {msg}")
-    
+
 def print_status(msg):
     status = ColorStr("[*]")
     print(f"{status.ForeCYAN} {msg}")
