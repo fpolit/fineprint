@@ -9,7 +9,7 @@ with open("README.md", "r") as readme:
     
 setuptools.setup(
     name="fineprint",
-    version="1.0.2",
+    version="1.0.4",
     author="glozanoa",
     author_email="glozano@uni.pe",
     description="Pretty print text.",

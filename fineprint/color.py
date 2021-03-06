@@ -19,28 +19,28 @@ class ColorStr(str):
         self.value = string
 
         # Funcionalities of Fore (colorama)
-        self.ForeBLACK = ColorStr(f"{Fore.BLACK}{self.value}{Fore.RESET}")
-        self.ForeRED = ColorStr(f"{Fore.RED}{self.value}{Fore.RESET}")
-        self.ForeGREEN = ColorStr(f"{Fore.GREEN}{self.value}{Fore.RESET}")
-        self.ForeYELLOW = ColorStr(f"{Fore.YELLOW}{self.value}{Fore.RESET}")
-        self.ForeMAGENTA = ColorStr(f"{Fore.MAGENTA}{self.value}{Fore.RESET}")
-        self.ForeCYAN = ColorStr(f"{Fore.CYAN}{self.value}{Fore.RESET}")
-        self.ForeWHITE = ColorStr(f"{Fore.WHITE}{self.value}{Fore.RESET}")
+        self.ForeBLACK = f"{Fore.BLACK}{self.value}{Fore.RESET}"
+        self.ForeRED = f"{Fore.RED}{self.value}{Fore.RESET}"
+        self.ForeGREEN = f"{Fore.GREEN}{self.value}{Fore.RESET}"
+        self.ForeYELLOW = f"{Fore.YELLOW}{self.value}{Fore.RESET}"
+        self.ForeMAGENTA = f"{Fore.MAGENTA}{self.value}{Fore.RESET}"
+        self.ForeCYAN = f"{Fore.CYAN}{self.value}{Fore.RESET}"
+        self.ForeWHITE = f"{Fore.WHITE}{self.value}{Fore.RESET}"
 
         # Funcionalities of Fore (colorama)
-        self.BackBLACK = ColorStr(f"{Back.BLACK}{self.value}{Back.RESET}")
-        self.BackRED = ColorStr(f"{Back.RED}{self.value}{Back.RESET}")
-        self.BackGREEN = ColorStr(f"{Back.GREEN}{self.value}{Back.RESET}")
-        self.BackYELLOW = ColorStr(f"{Back.YELLOW}{self.value}{Back.RESET}")
-        self.BackMAGENTA = ColorStr(f"{Back.MAGENTA}{self.value}{Back.RESET}")
-        self.BackCYAN = ColorStr(f"{Back.CYAN}{self.value}{Back.RESET}")
-        self.BackWHITE = ColorStr(f"{Back.WHITE}{self.value}{Back.RESET}")
+        self.BackBLACK = f"{Back.BLACK}{self.value}{Back.RESET}"
+        self.BackRED = f"{Back.RED}{self.value}{Back.RESET}"
+        self.BackGREEN = f"{Back.GREEN}{self.value}{Back.RESET}"
+        self.BackYELLOW = f"{Back.YELLOW}{self.value}{Back.RESET}"
+        self.BackMAGENTA = f"{Back.MAGENTA}{self.value}{Back.RESET}"
+        self.BackCYAN = f"{Back.CYAN}{self.value}{Back.RESET}"
+        self.BackWHITE = f"{Back.WHITE}{self.value}{Back.RESET}"
 
 
         # Functionalities of Style (colorama)
-        self.StyleDIM = ColorStr(f"{Style.DIM}{self.value}{Style.RESET_ALL}")
-        self.StyleNORMAL = ColorStr(f"{Style.NORMAL}{self.value}{Style.RESET_ALL}")
-        self.StyleBRIGHT = ColorStr(f"{Style.BRIGHT}{self.value}{Style.RESET_ALL}")
+        self.StyleDIM = f"{Style.DIM}{self.value}{Style.RESET_ALL}"
+        self.StyleNORMAL = f"{Style.NORMAL}{self.value}{Style.RESET_ALL}"
+        self.StyleBRIGHT = f"{Style.BRIGHT}{self.value}{Style.RESET_ALL}"
 
         def __repr__(self):
             return self.value

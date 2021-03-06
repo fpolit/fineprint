@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from color import ColorStr
+from .color import ColorStr
 
 def print_successful(msg):
     sucess = ColorStr("[+]")
